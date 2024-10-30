@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'mmtms';
+  src: url('../font/mmtms.eot?23836162');
+  src: url('../font/mmtms.eot?23836162#iefix') format('embedded-opentype'),
+       url('../font/mmtms.woff2?23836162') format('woff2'),
+       url('../font/mmtms.woff?23836162') format('woff'),
+       url('../font/mmtms.ttf?23836162') format('truetype'),
+       url('../font/mmtms.svg?23836162#mmtms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'mmtms';
+    src: url('../font/mmtms.svg?23836162#mmtms') format('svg');
+  }
+}
+*/
+[class^="mmtms-icon-"]:before, [class*=" mmtms-icon-"]:before {
+  font-family: "mmtms";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.mmtms-icon-universal-access:before { content: '\e800'; } /* '' */
+.mmtms-icon-wallet:before { content: '\e801'; } /* '' */
+.mmtms-icon-users:before { content: '\e802'; } /* '' */
+.mmtms-icon-website:before { content: '\e803'; } /* '' */
+.mmtms-icon-loop-alt:before { content: '\e804'; } /* '' */
+.mmtms-icon-trash-empty:before { content: '\e805'; } /* '' */
+.mmtms-icon-plus:before { content: '\e806'; } /* '' */
+.mmtms-icon-cancel-circled:before { content: '\e807'; } /* '' */
+.mmtms-icon-edit:before { content: '\e808'; } /* '' */
+.mmtms-icon-vcard:before { content: '\e809'; } /* '' */
+.mmtms-icon-info-circled:before { content: '\e80a'; } /* '' */
+.mmtms-icon-ok:before { content: '\e80b'; } /* '' */
+.mmtms-icon-user:before { content: '\e80c'; } /* '' */
+.mmtms-icon-basket:before { content: '\e80d'; } /* '' */
+.mmtms-icon-mail:before { content: '\e80e'; } /* '' */
+.mmtms-icon-phone:before { content: '\e80f'; } /* '' */
+.mmtms-icon-address:before { content: '\e810'; } /* '' */
+.mmtms-icon-location:before { content: '\e811'; } /* '' */
+.mmtms-icon-flag:before { content: '\e812'; } /* '' */
+.mmtms-icon-filter:before { content: '\e813'; } /* '' */
+.mmtms-icon-eye:before { content: '\e814'; } /* '' */
+.mmtms-icon-industrial-building:before { content: '\e822'; } /* '' */
+.mmtms-icon-gauge:before { content: '\f0e4'; } /* '' */
+.mmtms-icon-angle-left:before { content: '\f104'; } /* '' */
+.mmtms-icon-angle-right:before { content: '\f105'; } /* '' */
+.mmtms-icon-angle-circled-up:before { content: '\f139'; } /* '' */
+.mmtms-icon-angle-circled-down:before { content: '\f13a'; } /* '' */
+.mmtms-icon-doc-text-inv:before { content: '\f15c'; } /* '' */
+.mmtms-icon-sliders:before { content: '\f1de'; } /* '' */
+.mmtms-icon-window-restore:before { content: '\f2d2'; } /* '' */
+.mmtms-icon-wordpress:before { content: '\f31d'; } /* '' */

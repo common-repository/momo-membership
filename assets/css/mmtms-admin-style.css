@@ -1,0 +1,823 @@
+/**
+ * MMT Membership Admin Styles
+ */
+ /** Metaboxes **/
+ .edit-post-meta-boxes-area #poststuff h3.hndle, .edit-post-meta-boxes-area #poststuff .stuffbox > h3, .edit-post-meta-boxes-area #poststuff #mmtms_mb h2.hndle,
+ #mmtms_mb h3,
+ #mmtms_mb h2{
+    background-color: #FF6978;
+    color: #FFF;
+ }
+ .mmtms-float-right{
+     float: right;
+ }
+.mmtms-min-height-200{
+    min-height: 200px;
+}
+ #mmtms_mb .inside {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#mmtms_mb .mb_select_container_mmtms{
+    padding: 12px;
+}
+ #mmtms_mb select{
+     width: 100%;
+     margin-bottom: 15px;
+ }
+.mmtms-admin-wrapper{
+    margin-right: 15px;
+}
+ .mmtms_admin_tags_list_mb_show,
+ .mmtms_admin_tags_list_mb_block{
+    padding: 8px;
+    background: #f6f7ed;
+    padding-bottom: 3px;
+ }
+ .mmtms_admin_tags_list_mb_show span,
+ .mmtms_admin_tags_list_mb_block span{
+     background: #77ba99;
+     color: #FFF;
+     margin-right: 8px;
+     padding: 6px 6px;
+     border-radius: 3px;
+     margin-bottom: 5px;
+    display: inline-block;
+ }
+ .mmtms_admin_tags_list_mb_block span{
+    background: #d33f49;
+ }
+ .mmtms_admin_tags_list_mb_show span i,
+ .mmtms_admin_tags_list_mb_block span i{
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 4px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+ }
+ .mmtms_admin_tags_list_mb_show span i:hover,
+ .mmtms_admin_tags_list_mb_block span i:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+ }
+ /** Ends MetaBoxes*/
+ .mmtms-required:after { 
+    content:" *"; 
+    color: red;
+}
+.mmtms-admin-tab-bottom{
+    text-align: center;
+}
+.mmtms-admin-btn{
+    border-radius: 18px;
+    padding: 6px 16px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #FF6978;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.mmtms-admin-btn:hover{
+    opacity: 0.7;
+}
+.mmtms-admin-btn.secondary{
+    background-color: #008ec2;
+}
+.save-uninstall-settings{
+    margin-top: 80px;
+}
+.mmtms-admin-btn:hover,
+.mmtms-admin-btn:focus{
+    text-decoration: none;
+    color: #FFF;
+}
+.mmtms-admin-bar{
+    background-color: #f1f1f1;
+    width: 155px;
+    height: auto;
+    border-top: 1px solid #d9d7d7;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+}
+.mmtms-admin-table,
+.mmtms-admin-table td{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-spacing: 0;
+}
+.mmtms-admin-table ul{
+    background-color: #f1f1f1;
+    width: 155px;
+    height: auto;
+    border-top: 1px solid #d9d7d7;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+}
+.mmtms-admin-table ul li{
+    margin: 0;
+    display: block;
+    border-left: 1px solid #d9d7d7;
+    border-bottom: 1px solid #d9d7d7;
+}
+.mmtms-admin-tab a{
+    background-color: inherit;
+    color: #a8a8a8;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: block;
+}
+.mmtms-admin-tab a.active{
+    border-left: 4px solid #FF6978;
+    color: #3d3d3d;
+}
+.mmtms-admin-tab a i{
+    padding-right: 16px;
+}
+.mmtms-admin-table td.mmtms-admin-tabcontent{
+    border: 1px solid #ccc;
+    background: #FFF;
+    border-top: none;
+    padding: 15px;
+}
+.mmtms-admin-table td .mmtms-admin-content{
+    height: 0;
+    transition: opacity 0.5s ease-in;
+    opacity: 0;
+    display: none;
+}
+.mmtms-admin-table td .mmtms-admin-content.active{
+    opacity: 1;
+    height: auto;
+    display: block;
+}
+.mmtms-admin-table .mmtms-handlediv{
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+.mmtms-admin-table .meta-box-sortables .postbox.mmtms-closed .mmtms-handlediv .toggle-indicator::before{
+    content: "\f140";
+}
+.mmtms-admin-table td.mmtms-admin-tabcontent .active{
+    /* display: block; */
+}
+.mmtms-admin-content-header h3{
+    border-bottom: 1px solid #000;
+    margin: 0;
+    margin-right: 0px;
+    margin-right: 0px;
+    color: #333;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: -0.45px;
+    text-transform: uppercase;
+    font: 700 22px/60px "Roboto Condensed","Roboto",Arial,sans-serif;
+}
+.mmtms-admin-content-header i{
+    margin-right: 16px;
+}
+.mmtms-admin-content-main-sec{
+    padding: 0 40px;
+    border: 0.7px solid #FF6978;
+}
+.mmtms-admin-content-main-sec input[type="text"]{
+    width: 100%;
+}
+.mmtms-admin-content-head{
+    font-weight: bolder;
+}
+.mmtms-admin-content-info{
+    display: block;
+    font-style: italic;
+}
+.mmtms-admin-line{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+.mmtms-admin-line select{
+    min-width: 120px;
+}
+.mmtms-admin-yesno{
+    margin-top: 15px;
+}
+#mmtms-admin-form input[type="text"], #mmtms-admin-form textarea, #mmtms-admin-form select{
+    width: 100%;
+    color: #666666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+#mmtms-admin-form input:focus,
+#mmtms-admin-form textarea:focus,
+#mmtms-admin-form select:focus{
+    border-color:#5b9dd9;box-shadow:0 0 2px rgba(30,140,190,.8);outline:2px solid transparent
+}
+#mmtms-admin-form label.regular{
+    font-weight: bolder;
+    color: #455570;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-top: 8px;
+    display: inline-block;
+}
+.afteryes .textarea_info{
+  padding: 12px;
+  font-style: italic;
+}
+.mmtms-admin-toggle-container{
+    width: 125px;
+    text-align: center;
+}
+.mmtms-toggle-container-label{
+        padding-left: 80px;
+        line-height: 1.8;
+}
+.mmtms-admin-toggle-container .switch{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 56px;
+    height: 20px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.mmtms-admin-toggle-container .switch-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.mmtms-admin-toggle-container .switch-label{
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #eceeef;
+    border-radius: inherit;
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+    -webkit-transition-property: opacity background;
+    -moz-transition-property: opacity background;
+    -o-transition-property: opacity background;
+    transition-property: opacity background;
+}
+.mmtms-admin-toggle-container .switch-label:before, 
+.mmtms-admin-toggle-container .switch-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+}
+  
+  .mmtms-admin-toggle-container .switch-label:before {
+    content: attr(data-off);
+    right: 11px;
+    color: #352D39;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  }
+  
+  .mmtms-admin-toggle-container .switch-label:after {
+    content: attr(data-on);
+    left: 11px;
+    color: #FFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+  }
+  
+  .mmtms-admin-toggle-container .switch-input:checked ~ .switch-label {
+    background: #FF6978;
+  }
+  
+  .mmtms-admin-toggle-container .switch-input:checked ~ .switch-label:before {
+    opacity: 0;
+  }
+  
+  .mmtms-admin-toggle-container .switch-input:checked ~ .switch-label:after {
+    opacity: 1;
+  }
+  .mmtms-admin-toggle-container .switch-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 10px;
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+  }
+  
+  .mmtms-admin-toggle-container .switch-handle:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 12px;
+    height: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+  }
+  .mmtms-admin-toggle-container .switch-input:checked ~ .switch-handle {
+    left: 40px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .switch-green > .switch-input:checked ~ .switch-label {
+    background: #4fb845;
+  }
+
+.afteryes{
+    border-top: 1px solid #dbdbdb;
+    padding: 0;
+    /* padding: 15px; */
+    background: #F4eee2;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /* display: none; */
+    overflow: hidden;
+    height: 0;
+    /* transition: all .5s ease-in-out;
+    transform-origin: center top;
+    transform: scaleY(0); */
+    transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.afteryes.active{
+    /* display: block; */
+    padding: 15px;
+    height: auto;
+    transform: scaleY(1);
+}
+.mmtms-admin-button{
+    margin-top: 10px;
+}
+.mmtms-add-new-level,
+.mmtms-add-new-role,
+.mmtms-add-new-user{
+    padding: 0px 16px 0px 0px;
+    background-color: #FF6978;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    font-weight: 600;
+    outline: 0;
+    line-height: 20px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-decoration: none;
+    min-width: 120px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.mmtms-add-new-level i,
+.mmtms-add-new-role i,
+.mmtms-add-new-user i{
+    background-color: #db5966;
+    padding: 11px;
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.mmtms-add-new-level:hover,
+.mmtms-add-new-role:hover,
+.mmtms-add-new-user:hover,
+.mmtms-add-new-level:focus,
+.mmtms-add-new-role:focus,
+.mmtms-add-new-user:focus{
+    text-decoration: none;
+    color: #FFF;
+    border: none;
+}
+/*** Admin Table Begins ***/
+.mmtms-admin-levels-table,
+.mmtms-admin-roles-table,
+.mmtms-admin-user-table{
+    margin-top: 20px;
+}
+.mmtms-at thead tr,
+.mmtms-at tfoot tr{
+    background-color: rgb(131, 147, 191);
+    height: 40px;
+}
+.mmtms-at .widefat thead tr th{
+    color: #FFF;
+} 
+.mmtms-at thead tr th,
+.mmtms-at tfoot tr th{
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 8px 7px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: #FFF;
+}
+.mmtms-admin-table .mmtms-at td{
+    padding: 8px 10px;
+}
+.mmtms-at .widefat tbody tr:first-child td{
+    text-align: center;
+}
+.mmtms-at td a i{
+    color: #db5966;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.mmtms-at td a:focus{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+.mmtms-at td a i:hover{
+    color: rgb(131, 147, 191);
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.mmtms-at tr.admin-tr-loading{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    z-index:10;
+    background: rgba(255,255,235,0.8) url(../img/tr-loading.png) center center no-repeat;
+}
+/*** Admin Table Ends ***/
+
+/*** LightBox Start ***/
+.mmtms-admin-lightbox{
+    overflow-y: auto;
+    overflow-x:hidden;
+    opacity: 0; 
+    position: fixed;
+    z-index: 950000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    visibility: hidden;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+.mmtms-admin-lightbox.show{
+    visibility: visible;
+    opacity: 1;
+}
+.mmtms-admin-lb-body-overflow{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mmtms-admin-lb-wrapper{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    max-width: 600px;
+}
+.mmtms-admin-lb-close{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mmtms-admin-lb-close:hover{
+    font-size: 22px;
+}
+.mmtms-light-header{
+    padding: 12px;
+    background-color: rgb(30,30,40);
+    color: #FFF;
+}
+.mmtms-admin-lb-content{
+    color: #3e4654;
+    padding: 18px;
+}
+.mmtms-lb-input{
+    display: block;
+    width: 100%;
+}
+.mmtms-lb-label{
+    display: inline-block;
+    font-weight: bolder;
+    color: #455570;
+    margin-bottom: 1px;
+}
+.mmtms-lb-note{
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+}
+.mmtms-admin-lightbox input[type="text"]{
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba( 0, 0, 0, 0.07 );
+    background-color: #fff;
+    color: #32373c;
+    outline: none;
+    transition: 0.05s border-color ease-in-out;
+}
+.mmtms-admin-lightbox input[type="text"]:focus{
+    border-color: #5b9dd9;
+	box-shadow: 0 0 2px rgba( 30, 140, 190, 0.8 );
+	outline: 2px solid transparent;
+}
+.mmtms-lb-form-line{
+    padding: 10px 5px
+}
+
+#wp-mmtms_new_level_desc-wrap{
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.mmtms-admin-lb-footer{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.mmtms-lb-fbutton{
+    padding: 6px 6px;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #FF6978;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+}
+.mmtms-lb-fbutton:hover,
+.mmtms-lb-fbutton:focus{
+    text-decoration: none;
+    color: #FFF;
+}
+.mmtms_payment_box{
+    display: none;
+}
+.mmtms-admin-loader,
+.mmtms-admin-tab-loading{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:10;
+    background: rgba(255,255,255,0.7) url(../img/admin-loading.png) center center no-repeat;
+}
+.mmtms-lb-msgbox{
+    display:none;
+    padding: 10px;
+    margin: 10px;
+    color: #FFF;
+}
+.mmtms-lb-msgbox.red{
+    background-color: #d9534f;
+}
+/*** Ends LightBox ***/
+
+/** Role Table **/
+.mmtms-admin-cpb{
+    display: block;
+}
+.mmtms-admin-cpb-hide{
+    display: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.mmtms-cpb-load-more{
+    text-align: center;
+    display: block;
+}
+.mmtms-cpb-load-less{
+    text-align:center;
+    display: none;
+}
+
+.mmtms-art-subhead{
+    background-color:#108cdb;
+    color: #FFF;
+    font-weight: bold;
+}
+.mmtms-art-subhead td{
+    color: #FFF;
+    font-size: 13px;
+}
+/** Ends Role Table **/
+/** POST Columns**/
+.mmtms-column-published{
+    color: #1ab188;
+}
+.mmtms-column-show,
+.mmtms-column-block{
+    background: #1ab188;
+    padding: 2px 4px;
+    color: #FFF;
+    margin: 2px;
+    border-radius: 4px;
+    display: inline-table;
+}
+.mmtms-column-block{
+    background: #d33f49;
+}
+.mmtms_access.column-mmtms_access{
+    min-width: 100px;
+}
+/** Ends POST Columns **/
+/** Page states**/
+.mmtms_admin_p_status{
+    display: inline-block;
+    background: #ff6978;
+    color: #FFF;
+    padding: 2px 8px;
+    font-style: normal;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.mmtms_admin_p_status.danger{
+    background: #d33f49;
+}
+/** Invoice Settings Page**/
+.preview_invoice_logo{
+    text-align: center;
+}
+.invoice_business_logo_upload{
+    margin-top: 8px;
+}
+#mmtms-admin-form input[type="text"]:disabled.business_logo_url{
+    background-color: #F4eee2;
+}
+/** General Setting**/
+#mmtms-admin-form .general-settings label.regular{
+	display: block;
+}
+#mmtms-admin-form .general-settings select{
+	margin-bottom: 15px;
+}
+/** Dashboard **/
+.mmtms-two-column-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mmtms-two-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 12px;
+}
+.mmtms-two-column a {
+    color: #008ebc;
+    text-decoration: none;
+}
+.mmtms-two-column .postbox-container{
+    float: none;
+}
+.mmtms-dashboard-table{
+    border: 1px solid #ededed;
+    width: 100%;
+    font-weight: normal;
+    color: #748189;
+    border-collapse: collapse;
+}
+.mmtms-dashboard-table th,
+.mmtms-dashboard-table td{
+    padding: 8px;
+    font-weight: normal;
+}
+.mmtms-dashboard-table tbody tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+.mmtms-dashboard-table thead{
+    border-bottom: 1px solid #ededed;
+}
+.mmtms-two-column.dashboard span{
+    display: block;
+    margin-bottom: 8px;
+}
+.mmtms-two-column.dashboard span i{
+    color: #8a8991;
+    margin-right: 12px;
+}
+.mmtms-two-column.mmtms-two-column-left{
+    position: relative;
+}
+.mmtms-two-column.mmtms-two-column-left:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: calc(50% - (150px / 2));
+    width: 1px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #e5e5e5;
+}
+.mmtms-admin-content-box .postbox .hndle{
+    cursor: pointer;
+}
+.table-footer{
+    padding: 12px;
+    text-align: center;
+}
+.table-footer .table-footer-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #008ec2;
+    box-shadow: 0 1px 0 #0073aa, 0 0 2px 1px #33b3db;
+    border-color: #006799;
+    padding: 4px 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+/*** Preview Email ****/
+.mmtms-preview-email-header{
+    background: #a8a8a8;
+    font-size: 15px;
+}
+.mmtms-preview-email-header span{
+    display: block;
+    padding: 8px;
+    color: #FFF;
+}
+.mmtms-preview-email-message{
+    margin-top: 10px;
+}
+/*** User Profile ***/
+.mmtms-user-vstatus{
+    border-radius: 12px;
+    padding: 4px 12px;
+    font-size: 10px;
+    color: #FFF;
+    background: #32373c;
+    text-transform: uppercase;
+}
+.mmtms-user-vstatus.verified{
+    background: #1ab188;
+}
+.mmtms-user-vstatus.unverified{
+    background: #d33f49;
+}
+.mmtms-user-vstatus.unknown{
+    background: #352D39;
+}
+@media only screen and (max-width: 960px){
+    .mmtms-admin-table ul{
+        width: 40px;
+    }
+    ul.mmtms-admin-tab a span{
+        display: none;
+    }
+    .mmtms-admin-tab a i {
+        padding-right: 0;
+        padding-left: 4px;
+    }
+    .mmtms-admin-tab a.active i {
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,16 @@
+/**
+ * Shortcodes Used.
+ *
+ * @package momo-membership
+ */
+
+/**
+ * Shortcodes Used
+ * [mmtms_user_register]
+ * [mmtms_user_login]
+ * [mmtms_user_profile]
+ * [mmtms_logout_link]
+ * [mmtms_reset_password]
+ * [mmtms_subscription]
+ */
+

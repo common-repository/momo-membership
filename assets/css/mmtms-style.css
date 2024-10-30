@@ -1,0 +1,1007 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body.mmtms_overflow{overflow: hidden; position:absolute;height:100%; width:100%;}
+html.mmtms_overflow{overflow-y:initial;overflow-x:initial;}
+.mmtms-clear{
+    clear: both;
+}
+.mmtms-small{
+    font-size: 11px;
+}
+.mmtms-dnone{
+    display: none;
+}
+.mmtms-fe-20p{
+    padding: 20px;
+}
+.mmtms-la{
+    text-align: left;
+}
+.mmtms-ra{
+    text-align: right;
+}
+.mmtms-ca{
+    text-align: center;
+}
+.mmtms-input-highlight{
+    border: 1px solid red!important;
+}
+.mmtms-two-column-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mmtms-two-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.mmtms-btn{
+    padding: 5px 12px;
+    color: #FFF;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+}
+/** LOGIN WIDGET**/
+.widget-login-form{
+    position: relative;
+}
+/** ENDS LOGIN WIDGET**/
+/** Frontend messages**/
+.mmtms-fe-nl-message,
+.mmtms-fe-bu-message{
+    font-family: "Roboto", sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+.mmtms-fe-nl-message .mmtms-fe-nl-msg{
+    color: #424141;
+    font-size : 18px;
+}
+.mmtms-fe-bu-message .mmtms-fe-bu-msg{
+    color: #fff;
+    font-size: 18px;
+    background: brown;
+}
+.mmtms-fe-login-btn{
+    /* background: #76b852; */
+}
+.entry .entry-content .mmtms-fe-login-btn a{
+    text-decoration: none;
+    color: #FFF;
+}
+/** Ends Frontend messages**/
+/** Frontend Info and messages**/
+.mmtms-fe-msg{
+    margin: 10px 0;
+    padding: 25px 35px;
+    border-radius: 3px 3px 3px 3px;
+    display: none;
+    position: relative;
+    overflow-wrap: break-word;
+    white-space: normal;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.mmtms-fe-msg p{
+    margin: 8px;
+}
+.mmtms-fe-msg.info{
+    color: #FFF;
+    background-color: #00cae3;
+}
+.mmtms-fe-msg.warning{
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.mmtms-fe-msg i.msg-icon{
+    background-color: #FFF;
+    border-radius: 50%;
+    content: "";
+    padding: 1px;
+    top: -14px;
+    left: 20px;
+    font-size: 20px;
+    position: absolute;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);
+    line-height: 28px;
+}
+.mmtms-fe-msg.info i.msg-icon{
+    color: #00cae3;
+}
+
+/* .mmtms-fe-msg.info:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f05a";
+    margin-right: 10px;
+} */
+.mmtms-fe-msg.warning:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f071";
+    margin-right: 10px;
+}
+.mmtms-fe-msg.success{
+    color: #270;
+    background-color: #DFF2BF;
+}
+.mmtms-fe-msg.success:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f00c";
+    margin-right: 10px;
+}
+.entry .entry-content .mmtms-fe-msg a,
+.mmtms-fe-msg a{
+    color: #FFF;
+    border-radius: 20px;
+    padding: 4px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: .85rem;
+}
+.entry .entry-content .mmtms-fe-msg.info a.no-btn-link{
+    background: #FFF;
+    color: #00cae3;
+}
+.mmtms-fe-msg a:focus,
+.mmtms-fe-msg a:hover{
+    text-decoration: none;
+}
+/** Ends Frontend Info and messages**/
+/** Inputs / Forms**/
+.mmtms-form .btn{
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #237ebd;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 2px 32px;
+    display: inline-block;
+}
+
+.mmtms-form{
+    font-family: 'Roboto', sans-serif;
+}
+.mmtms-form .btn-line-left{
+    text-align: left;
+    margin-top: 26px;
+}
+.mmtms-form .bottom-info{
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+.mmtms-form .bottom-info a{
+    font-size: 12px;
+    text-decoration: none;
+    font-style: italic;
+    color: #707070;
+    border-bottom: none;
+}
+.mmtms-form label{
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 14px;
+    display: block;
+    text-align: left;
+}
+.mmtms-required:after{
+    content:" *"; 
+    color: #333;
+}
+.mmtms-form input[type="text"],
+.mmtms-form input[type="password"],
+.mmtms-form input[type="email"]{
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)); /* Removing the inner shadow on iOS inputs */
+    background: #f9f7f7;
+	border: 1px solid #dadcdc;
+	color: #707070;
+    border-radius: 6px;
+    width: 100%;
+    padding: 6px 14px;
+    font-size: 14px;
+}
+.mmtms-form input[type="text"]:placeholder-shown,
+.mmtms-form input[type="password"]:placeholder-shown,
+.mmtms-form input[type="email"]:placeholder-shown{
+    font-style: italic;
+}
+.mmtms-form input[type="text"]::placeholder,
+.mmtms-form input[type="password"]::placeholder,
+.mmtms-form input[type="email"]::placeholder{
+    color: #c3c2c2;
+}
+.mmtms-form input.mmtms-focus:focus{
+    outline: none;
+    border-color: #cf3c3c;
+    box-shadow: 0 0 5px #cf3c3c;
+}
+/** TOOLTIPS **/
+.mmtms-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+.mmtms-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.mmtms-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/** ENDS TOOLTIPS **/
+/** LIGHTBOX **/
+.mmtms-fe-lightbox{
+    overflow-y: auto;
+    overflow-x:hidden;
+    opacity: 0; 
+    position: fixed;
+    z-index: 950000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    visibility: hidden;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.mmtms-fe-lightbox.show{
+    visibility: visible;
+    opacity: 1;
+}
+.mmtms-fe-lb-body-overflow{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.mmtms-fe-lb-wrapper{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    max-width: 600px;
+}
+.mmtms-fe-lb-close{
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mmtms-fe-lb-header{
+    padding: 8px;
+    background-color: rgba(19, 35, 47, 0.9);
+    color: #FFF;
+    text-transform: uppercase;
+}
+.mmtms-fe-lb-content{
+    color: #3e4654;
+    padding: 18px;
+    padding-bottom: 0;
+}
+.mmtms-fe-lb-line{
+    padding: 10px 5px;
+}
+.mmtms-lb-label{
+    display: block;
+    font-weight: bolder;
+    color: #455570;
+    margin-bottom: 1px;
+}
+.mmtms-fe-lb-content input[type="text"],
+.mmtms-fe-lb-content input[type="password"]{
+    width: 100%;
+    color: #666666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+.mmtms-fe-lb-content input[type="text"]:focus,
+.mmtms-fe-lb-content input[type="password"]:focus{
+    border-color: #1ab188;
+	box-shadow: 0 0 2px rgba( 20, 140, 190, 0.8 );
+	outline: 2px solid transparent;
+}
+.mmtms-fe-lb-input{
+    display: block;
+}
+.mmtms-fe-lb-msgbox{
+    background-color: coral;
+    padding: 8px;
+    color: #FFF;
+    display: none;
+}
+.mmtms-fe-lb-footer{
+    text-align: center;
+    padding: 8px;
+}
+.mmtms-fe-lb-footer .btn-change-name,
+.mmtms-fe-lb-footer .btn-change-email,
+.mmtms-fe-lb-footer .btn-change-password,
+.mmtms-fe-lb-footer .btn-change-oe,
+.mmtms-fe-lb-footer .btn-change-iu,
+.btn-browse-image{
+    background-color: #1ab188;
+}
+.mmtms-fe-lb-loader{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:10;
+    background: rgba(255,255,255,0.7) url(../img/mrf-loading.png) center center no-repeat;
+}
+/** LIGHTBOX ENDS**/
+/** TABS **/
+.mmtms-tab {
+    overflow: hidden;
+    color: #FFF;
+  }
+.mmtms-tab-container{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.mmtms-tab-container h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.mmtms-tab .mmtms-tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.3s;
+    background-color: rgba(160, 179, 176, 1);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.mmtms-tab .mmtms-tablinks:hover {
+    opacity: 0.7;
+}
+
+.mmtms-tab .mmtms-tablinks.active {
+    background-color: #1ab188;
+}
+
+.mmtms-tabcontent {
+    display: none;
+    padding: 16px 18px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: rgba(19, 35, 47, 0.9);
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.mmtms-tabcontent.active{
+    display: block;
+}
+/** ENDS TABS **/
+/** Table Container **/
+.mmtms-table-container{
+    background-color: #FFF;
+    color: #424141;
+}
+.mmtms-table-container table{
+    font-family: 'Roboto', sans-serif;
+}
+.mmtms-fe-profile-sub-tb th{
+    border: none;
+    border-bottom: 3px solid #1ab188;
+}
+.mmtms-fe-profile-sub-tb td{
+    border: none;
+}
+/** Ends Table Container **/
+.mmtms-registration-form{
+    /* background-color: #c1bdba; */
+    opacity: 0;
+    display: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: opacity 1s ease-out;
+}
+.mmtms-registration-form.mmtms-no-level-visible{
+    display: block;
+    opacity: 1;
+}
+.mmtms_logged_payment_form{
+    opacity: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: opacity 1s ease-out;
+}
+.mmtms_payment_form{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mmtms-registration-form-wrapper{
+    position: relative;
+}
+.mrf-form-wrapper{
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    background: #FFF;
+}
+/* .mrf-header{
+    margin: 0 0 40px 0;
+    background: #1ab188;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.mrf-form-field{
+    margin-bottom: 40px;
+}
+.mrf-form-field input{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    border-color: #a0b3b0;
+    border-radius: 0;
+    background: none;
+    font-size: 22px;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+.mrf-form-field input:focus{
+    outline: 0;
+    border-color: #1ab188;
+}
+.mrf-footer-signup{
+    margin: 0 0 40px 0;
+    background: #1ab188;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.mrf-footer-signup:focus,
+.mrf-footer-signup:hover{
+    background: #179b77;
+} */
+.mrf-loading{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:10;
+    background: rgba(255,255,255,0.7) url(../img/mrf-loading.png) center center no-repeat;
+}
+.mrf-err-box{
+    display: none;
+    padding: 20px;
+    color: #fff;
+    background: crimson;
+}
+
+/** Subscription Pla**/
+/* .mmtms-subscription-plan{
+
+} */
+.mmtms-subscription-wrap{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+    text-align: center;
+}
+.mmtms-subs-level-item{
+    margin: 10px;
+    width: 31%;
+    box-sizing: border-box;
+    max-width: 380px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 270px;
+    margin-bottom: 20px;
+    background: linear-gradient(#555, #444);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.3s;
+}
+.mmtms-subs-level-item:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    background: linear-gradient( #77ba99, #1ab188);
+}
+.mmtms-subs-level-item-wrap{
+    margin: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    padding: 0px;
+    padding-top: 0px;
+    position: relative;
+    
+    background-color: #08a7e3;
+}
+.mmtms-subs-level-top{
+    text-transform: uppercase;
+}
+.mmtms-subs-level-top,
+.mmtms-subs-level-lp,
+.mmtms-subs-level-desc{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    padding: 17px 6px;
+    line-height: 40px;
+    min-height: 60px;
+}
+.mmtms-subs-level-desc{
+    font-size: 18px;
+    font-style: normal;
+    min-height: 200px;
+}
+.mmtms-subs-level-bt{
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #A2A8B1;
+    font-weight: bold;
+    padding: 14px 4px;
+}
+.mmtms-subs-level-btn{
+    padding: 17px 6px;
+    text-align:center;
+}
+.entry .entry-content .mmtms-subs-level-btn a,
+.mmtms-subs-level-btn a{
+    padding: 10px 20px;
+    background: #FFF;
+    color: #1ab188;
+    border-radius: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.entry .entry-content .mmtms-subs-level-btn a:hover,
+.mmtms-subs-level-btn a:hover{
+    background: linear-gradient(#555, #444);
+    color: #FFF;
+}
+.entry .entry-content .mmtms-subs-level-btn a:focus,
+.mmtms-subs-level-btn a:focus,
+.entry .entry-content .mmtms-subs-level-btn a:active,
+.mmtms-subs-level-btn a:active{
+    outline: 0;
+}
+.mmtms-mpt-header{
+    font-size: 21px;
+    line-height: 35px;
+    max-width: 70%;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    border-bottom: 3px solid #1ab188;
+}
+.mmtms-mpt-pn{
+    font-weight: 800;
+    font-size: 15px;
+    float: left;
+}
+.mmtms-mpt-pnv{
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+}
+.mmtms-mpt-desc{
+    font-size: 12px;
+    font-style: italic;
+}
+.entry .entry-content a.mmtms-mpt-btn,
+a.mmtms-mpt-btn{
+    border-radius: 4px;
+    background: #1ab188;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.entry .entry-content a.mmtms-mpt-btn:hover,
+a.mmtms-mpt-btn:hover{
+    text-decoration: none;
+    color: #1ab188;
+    border: 1px solid #1ab188;
+    background: #FFF;
+}
+/** Ends Subscription Plan**/
+
+/** LOGIN FORM **/
+/** PWD RESET FORM**/
+.mmtms-login-form,
+.mmtms-pwd-reset-form{
+    position: relative;
+}
+.mmtms-login-page,
+.mmtms-pwd-reset-page{
+    width: 460px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.mmtms-login-page form,
+.mmtms-pwd-reset-page form{
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 460px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/* .mmtms-login-page form input[type="text"],
+.mmtms-login-page form input[type="password"],
+.mmtms-pwd-reset-page form input[type="text"]{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.mmtms-login-page form button,
+.mmtms-pwd-reset-page form button{
+    border-radius: 0;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.mmtms-login-page form button:hover,
+.mmtms-login-page form button:active,
+.mmtms-login-page form button:focus {
+    background: #43A047;
+}
+
+.mmtms-login-page .mmtms-login-lost,
+.mmtms-login-page .mmtms-rm-txt,
+.mmtms-login-page .mmtms-login-signup,
+.entry .entry-content .mmtms-login-page .mmtms-login-lost,
+.entry .entry-content a.mmtms-login-signup{
+    font-size: 12px;
+    text-decoration: none;
+    color: #4CAF50;
+    
+}
+.entry .entry-content .mmtms-login-signup a
+.mmtms-login-signup a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #4CAF50;
+} */
+.mlf-loading{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(255,255,255,0.7) url(../img/mrf-loading.png) center center no-repeat;
+}
+.mmtms-login-msg{
+    display: none;
+    padding: 12px;
+    border-left: 3px solid red;
+    font-size: 12px;
+    margin-bottom: 8px;
+    background: #FFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/** PROFILE PAGE */
+/* .mmtms-profile-img{
+    display: block;
+    text-align: center;
+}
+.mmtms-profile-img img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.mmtms-profile-line{
+    display: block;
+}
+.mmtms-tabcontent span i{
+    margin-left: 12px;
+    cursor: pointer;
+}
+.mmtms-tabcontent span.fe-edit-p-password{
+    cursor: pointer;
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.mmtms_p_title{
+    min-width: 150px;
+    display: inline-block;
+    font-style: normal;
+}
+.mmtms_pe_oi,
+.user-subs-delete,
+.user-subs-add{
+    padding: 2px 4px;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #11b1df;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.user-subs-add{
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.user-subs-add a{
+    color: #FFF;
+    text-decoration: none;
+}
+.mmtms_pe_oi{
+    padding: 4px 8px;
+    margin-top: 5px;
+} */
+.mmtms-fe-user-profile{
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+.mmtms-fe-user-profile .mmtms-two-column{
+    margin-bottom: 12px;
+}
+.mmtms-up-image{
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    position: relative;
+}
+.mmtms-up-uname{
+    background: #227ebd;
+    color: #FFF;
+    text-transform: capitalize;
+    border-radius: 8px;
+    padding: 2px 45px;
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    bottom: -16px;
+    /* left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform:translate(-50%, 0); */
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: inline-table;
+}
+.mmtms-up-details{
+    margin-top: 18px;
+    padding: 20px;
+    padding-top: 0;
+}
+.mmtms-up-details i{
+    font-size: 18px;
+    margin-right: 15px;
+    width: 20px;
+}
+.mmtms-up-ms{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mmtms-up-about,
+.mmtms-up-subscription,
+.mmtms-up-invoices{
+    margin-top: 50px;
+}
+.mmtms-upa-header,
+.mmtms-ups-header,
+.mmtms-upi-header{
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    min-width: 160px;
+    border-bottom: 1px solid #000;
+    font-size: 15px;
+}
+.mmtms-upa-content,
+.mmtms-ups-content,
+.mmtms-upi-content{
+    margin-top: 18px;
+}
+.mmtms-upa-footer{
+    margin-top: 18px;
+}
+.fe-edit-p-name{
+    font-size: 11px;
+    font-weight : normal;
+    cursor:pointer;
+    margin-left: 12px;
+}
+.fe-edit-p-image{
+    font-size: 11px;
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.fe-edit-p-image:hover{
+    color: #FFF;
+}
+.mmtms_pe_oi,
+.user-subs-delete,
+.user-subs-add{
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #227ebd;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.user-subs-add a,
+.entry-content a.user-subs-add{
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: none!important;
+}
+.user-subs-add a:hover,
+.entry-content a.user-subs-add:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+.mmtms-up-stitle{
+    font-weight: bold;
+}
+.mmtms-up-sdetail{
+    display: block;
+    margin-bottom: 25px;
+}
+/** ENDS PROFILE PAGE*/
+/** Subscription Page **/
+.mmtms_payment_form{
+    display: none;
+}
+/** Ends Subscription Page **/
+
+/**Login Widget**/
+.widget_mmtms_login_widget .widget_gravatar{
+    text-align: center;
+}
+.widget_mmtms_login_widget .mmtms_w_links{
+    margin-top: 15px;
+}
+/**Ends Login Widget**/
+
+/** INVOICE **/
+.archive-invoice-wrapper{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.archive-invoice-table{
+    border-collapse: collapse;
+}
+.archive-invoice-table th{
+    font-size: 18px;
+    color:#fff;
+    line-height: 1.4;
+    background-color:#6c7ae0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: none;
+    padding-left: 14px;
+}
+.archive-invoice-table td{
+    border: none;
+    padding-left: 16px;
+}
+.mmtms-invoice-container{
+    background: #FFF;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.mmtms-invoice-container .invoice-table{
+    margin-top: 65px;
+    border: 1px solid #cecece;
+}
+.mmtms-invoice-header,
+.mmtms-invoice-cust{
+    display: flex;
+}
+.mmtms-invoice-cust{
+    margin-top: 60px;
+}
+.mmtms-invoice-header .inv-header-span,
+.mmtms-invoice-cust .inv-header-span{
+    display: block;
+}
+.mmtms-invoice-header .inv-header-span.business-name,
+.mmtms-invoice-cust .inv-header-span.cust-name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.mmtms-invoice-header .inv-header-span i{
+    margin-right: 10px;
+    color: #12b886;
+}
+.invoice-header-info,
+.invoice-header-logo,
+.invoice-cust-info,
+.invoice-order-info{
+    flex:50%;
+
+}
+/** ENDS INVOICE **/

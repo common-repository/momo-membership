@@ -1,0 +1,1437 @@
+# Copyright (C) 2022 MoMo Membership
+# This file is distributed under the same license as the MoMo Membership package. 
+msgid ""
+msgstr ""
+"Project-Id-Version: MMT - Membership\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-10 05:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1\n"
+"X-Domain: momo-membership"
+
+#: admin/admin-wp-capabilities.php:60
+msgid "* By default, only \"read\" capabilities is added to role."
+msgstr ""
+
+#: admin/admin-levels.php:67
+msgid "* Level Name should be unique and cannot be repeated."
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:51
+msgid ""
+"* Role ID can contain characters, digits, hyphens or underscore only (No "
+"Spaces)."
+msgstr ""
+
+#. %s: icon
+#: admin/admin-wp-capabilities.php:65
+#, php-format
+msgid "* You can change capabilities by clicking %s on WP Capabilities page"
+msgstr ""
+
+#: admin/admin-dashboard.php:94 admin/admin-dashboard.php:105
+#: admin/admin-dashboard.php:116 admin/admin-dashboard.php:127
+#: admin/admin-dashboard.php:199 includes/class-mmtms-shortcodes.php:208
+msgid "-"
+msgstr ""
+
+#. Password reset email subject. %s: Site name
+#: includes/class-mmtms-frontend-ajax.php:1141
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:118
+#: includes/class-mmtms-shortcodes.php:325
+msgid "About"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:277
+msgid "about"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:102
+msgid "About Member"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:147
+msgid "Access"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:109
+#: admin/class-mmtms-admin-helper.php:131
+#: admin/class-mmtms-admin-helper.php:196
+#: admin/class-mmtms-admin-helper.php:218
+#: admin/class-mmtms-admin-helper.php:555
+#: admin/class-mmtms-admin-helper.php:580 admin/admin-pages.php:29
+#: admin/admin-pages.php:45
+msgid "Action"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add Membership feature to WordPress."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:32
+#: admin/class-mmtms-admin-cpt-invoices.php:33
+msgid "Add New Invoice"
+msgstr ""
+
+#: admin/admin-levels.php:20
+msgid "Add New Level"
+msgstr ""
+
+#: admin/admin-levels.php:59
+msgid "Add new Level"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:27
+#: admin/class-mmtms-admin-cpt-members.php:28
+msgid "Add New Member"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:19
+msgid "Add New Role"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:43
+msgid "Add new Role"
+msgstr ""
+
+#: admin/admin-members.php:20
+msgid "Add New User"
+msgstr ""
+
+#: admin/admin-members.php:39
+msgid "Add new user"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:71
+msgid "Add Role"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:95
+msgid "Add to Menu"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:33 admin/admin-invoice.php:38
+#: includes/class-mmtms-frontend-ajax.php:81
+#: includes/class-mmtms-frontend-ajax.php:954
+msgid "Address"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:314
+msgid "Administrator related capabilities"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:46
+#: admin/class-mmtms-admin-metaboxes.php:46
+msgid "All"
+msgstr ""
+
+#: admin/admin-dashboard.php:81
+msgid "All Cancellations"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:37
+msgid "All Invoices"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:32
+msgid "All Members"
+msgstr ""
+
+#: admin/admin-dashboard.php:121
+msgid "All Time"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:368
+msgid "Author related capabilities"
+msgstr ""
+
+#: admin/admin-levels.php:71
+msgid "Billing Option"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:87
+#: admin/class-mmtms-admin-ajax-level.php:189
+msgid "Billing Type is Payment, but price field is empty."
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:96
+#: admin/class-mmtms-admin-ajax-level.php:198
+msgid "Billing Type is Payment, but price field is non numeric."
+msgstr ""
+
+#: admin/class-mmtms-admin-metaboxes.php:40
+msgid "Block Post only for"
+msgstr ""
+
+#: admin/admin-invoice.php:32 admin/admin-invoice.php:33
+msgid "Business Name"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:193
+#: admin/class-mmtms-admin-helper.php:215
+msgid "Capabilities"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:713
+msgid "Change Email Address"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:627
+msgid "Change Name"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:805
+msgid "Change Password"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:267
+msgid "Change Plan"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1006
+msgid "Change Profile Image URL"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:342
+msgid "Choose Subscription"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:40
+#: includes/class-mmtms-frontend-ajax.php:85
+#: includes/class-mmtms-frontend-ajax.php:957
+msgid "City"
+msgstr ""
+
+#: includes/invoice-email-template.php:42
+msgid "Click here to view your invoice"
+msgstr ""
+
+#: admin/admin-dashboard.php:40
+msgid "Configure Payment Settings"
+msgstr ""
+
+#: admin/admin-dashboard.php:46
+msgid "Confirm Email Settings"
+msgstr ""
+
+#: admin/admin-members.php:65 includes/class-mmtms-frontend.php:213
+#: includes/class-mmtms-frontend.php:214
+#: includes/class-mmtms-frontend-ajax.php:817
+#: includes/class-mmtms-shortcodes.php:168
+#: includes/class-mmtms-shortcodes.php:169
+msgid "Confirm Password"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:61
+#: includes/class-mmtms-frontend-ajax.php:97
+#: includes/class-mmtms-frontend-ajax.php:970
+msgid "Country"
+msgstr ""
+
+#: admin/admin-dashboard.php:32
+msgid "Create a Membership Level"
+msgstr ""
+
+#: admin/class-mmtms-admin-settings.php:36 admin/admin-dashboard.php:13
+msgid "Dashboard"
+msgstr ""
+
+#: admin/admin-pages.php:13 admin/class-mmtms-admin-settings.php:42
+msgid "Default Pages"
+msgstr ""
+
+#: admin/admin-levels.php:79
+msgid "Default WP Capabilities"
+msgstr ""
+
+#: admin/admin-uninstall.php:30
+msgid "Delete all plugin settings after plugin uninstall ?"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:630
+msgid "Delete Member"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:276
+msgid "Delete Role"
+msgstr ""
+
+#: admin/admin-payments.php:39
+msgid "Description"
+msgstr ""
+
+#: admin/admin-dashboard.php:133
+msgid "Details"
+msgstr ""
+
+#: admin/admin-invoice.php:30
+msgid "Display Invoice after Membership Purchased?"
+msgstr ""
+
+#: includes/class-mmtms-login-widget.php:15
+msgid "Display MMTMS Login Widget in sidebar"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:55 admin/class-mmtms-admin-helper.php:543
+#: admin/class-mmtms-admin-helper.php:568
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:501
+#: includes/class-mmtms-frontend-ajax.php:512
+msgid "Display payment return message."
+msgstr ""
+
+#: admin/admin-dashboard.php:19
+msgid "Documentation & Support"
+msgstr ""
+
+#: admin/admin-dashboard.php:21
+msgid "documentation here"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:47
+msgid "Dynamic Login Logout"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:83 admin/class-mmtms-admin-helper.php:279
+msgid "Edit Capabilities"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:35
+msgid "Edit Invoice"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:30
+#: admin/class-mmtms-admin-helper.php:627
+msgid "Edit Member"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:73
+#: includes/class-mmtms-shortcodes.php:284
+msgid "Edit Other Information"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:72 admin/class-mmtms-admin-helper.php:273
+msgid "Edit Role"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:344
+msgid "Editor related capabilities"
+msgstr ""
+
+#: admin/admin-invoice.php:35 admin/class-mmtms-admin-helper.php:546
+#: admin/class-mmtms-admin-helper.php:571 admin/admin-members.php:48
+#: includes/class-mmtms-frontend.php:207 includes/class-mmtms-frontend.php:208
+#: includes/class-mmtms-shortcodes.php:162
+#: includes/class-mmtms-shortcodes.php:163
+msgid "Email"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:722
+msgid "Email Address"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-user.php:60
+#: admin/class-mmtms-admin-ajax-user.php:192
+msgid "Email Address already exist."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:174
+#: includes/class-mmtms-frontend-ajax.php:746
+msgid "Email address already registered to another user."
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:134
+msgid "Email address is invalid"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1085
+msgid "Email sent. Check your email to change your password"
+msgstr ""
+
+#: admin/admin-invoice.php:36
+msgid "email@yourbusiness.com"
+msgstr ""
+
+#: admin/admin-payments.php:31
+msgid "Enable Paypal payment gateway"
+msgstr ""
+
+#: admin/admin-payments.php:70
+msgid "Enable Paypal Sandbox"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1076
+msgid "Error retrieving user data"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:762
+msgid "Error updating user email."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:847
+msgid "Error updating user password."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:669
+msgid "Error updating user profile."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1099
+msgid "ERROR: Enter a username or email address."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1103
+#: includes/class-mmtms-frontend-ajax.php:1113
+msgid "ERROR: There is no account with that username or email address."
+msgstr ""
+
+#: admin/admin-dashboard.php:171
+msgid "Expires"
+msgstr ""
+
+#: admin/admin-members.php:52 includes/class-mmtms-frontend.php:198
+#: includes/class-mmtms-frontend.php:199
+#: includes/class-mmtms-frontend-ajax.php:632
+#: includes/class-mmtms-shortcodes.php:153
+#: includes/class-mmtms-shortcodes.php:154
+msgid "First Name"
+msgstr ""
+
+#: admin/admin-dashboard.php:29
+msgid "First Setup"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:52
+#: includes/class-mmtms-login-widget.php:70
+msgid "Forgot Password?"
+msgstr ""
+
+#: admin/admin-levels.php:74 includes/class-mmtms-frontend-ajax.php:260
+#: includes/class-mmtms-frontend-ajax.php:335
+msgid "Free"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:161
+msgid "From: "
+msgstr ""
+
+#: admin/admin-dashboard.php:36
+msgid "Generate Membership Pages"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:254
+#: includes/class-mmtms-login-widget.php:50
+msgid "Go to Profile"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.momothemes.com/"
+msgstr ""
+
+#: admin/admin-payments.php:71
+msgid "If enabled, live payment will be disabled."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1137
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: admin/admin-dashboard.php:24
+msgid ""
+"If you need further help using the program, you can open a support ticket in "
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1014
+msgid "Image URL"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:29
+#: admin/class-mmtms-admin-cpt-invoices.php:31
+#: admin/class-mmtms-admin-cpt-invoices.php:143
+#: admin/class-mmtms-admin-settings.php:41
+msgid "Invoice"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:102
+msgid "Invoice #"
+msgstr ""
+
+#: includes/single-mmtms-invoices.php:60 includes/invoice-email-template.php:37
+msgid "INVOICE : # "
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:189
+#: includes/archive-mmtms-invoices.php:17
+msgid "Invoice Date"
+msgstr ""
+
+#: admin/admin-invoice.php:44 admin/admin-invoice.php:45
+msgid "Invoice Email Subject"
+msgstr ""
+
+#: includes/archive-mmtms-invoices.php:16
+msgid "Invoice No"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:88
+msgid "Invoice No."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:197
+msgid "Invoice Price"
+msgstr ""
+
+#: admin/admin-invoice.php:17
+msgid "Invoice Settings"
+msgstr ""
+
+#. Page title.
+#: admin/class-mmtms-admin-cpt-invoices.php:28
+#: admin/class-mmtms-admin-cpt-invoices.php:30
+#: admin/class-mmtms-admin-cpt-invoices.php:74
+msgid "Invoices"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:349
+msgid "invoices"
+msgstr ""
+
+#: admin/admin-dashboard.php:168
+msgid "Joined"
+msgstr ""
+
+#: admin/admin-members.php:56 includes/class-mmtms-frontend.php:201
+#: includes/class-mmtms-frontend.php:202
+#: includes/class-mmtms-frontend-ajax.php:636
+#: includes/class-mmtms-shortcodes.php:156
+#: includes/class-mmtms-shortcodes.php:157
+msgid "Last Name"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:552
+#: admin/class-mmtms-admin-helper.php:577
+msgid "Level"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:48
+msgid "Level deleted successfully."
+msgstr ""
+
+#: admin/admin-levels.php:89 includes/single-mmtms-invoices.php:71
+msgid "Level Description"
+msgstr ""
+
+#: admin/admin-levels.php:64
+msgid "Level Name"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:77
+#: admin/class-mmtms-admin-ajax-level.php:179
+msgid "Level name alreay exist, please use another level name."
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:141
+msgid "Level not created yet. Please contact site administrator."
+msgstr ""
+
+#: admin/admin-levels.php:85
+msgid "Level Price"
+msgstr ""
+
+#: admin/class-mmtms-admin-settings.php:38
+msgid "Levels"
+msgstr ""
+
+#: admin/admin-payments.php:50
+msgid "Live Paypal Client ID"
+msgstr ""
+
+#: admin/admin-payments.php:54
+msgid "Live Paypal Secret"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:140
+#: includes/class-mmtms-frontend-helper.php:208
+msgid "Log In"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:48
+msgid "Log in | Log out"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:142
+msgid "Log Out"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:559
+msgid "Logged in successfully."
+msgstr ""
+
+#: includes/class-mmtms-login-widget.php:104
+msgid "Logged in Title:"
+msgstr ""
+
+#: includes/class-mmtms-login-widget.php:108
+msgid "Logged Out Title:"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:855
+#: includes/class-mmtms-frontend-helper.php:98
+#: includes/class-mmtms-login-widget.php:78
+msgid "Login"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:59
+msgid "login"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:384
+msgid "Logout"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:863
+msgid "Logout Link"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:546
+msgid "Lost your password?"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:24
+#: admin/class-mmtms-admin-cpt-members.php:26
+msgid "Member"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-user.php:99
+msgid "Member registered successfully."
+msgstr ""
+
+#. %s: member since
+#: includes/class-mmtms-shortcodes.php:230
+#, php-format
+msgid "member since : %s"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-user.php:212
+#: includes/class-mmtms-frontend-ajax.php:1164
+msgid "Member updated successfully."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:23
+#: admin/class-mmtms-admin-cpt-members.php:25
+#: admin/class-mmtms-admin-settings.php:40 admin/admin-members.php:15
+msgid "Members"
+msgstr ""
+
+#: admin/admin-levels.php:17
+msgid "Members Level"
+msgstr ""
+
+#: admin/admin-dashboard.php:165 includes/single-mmtms-invoices.php:68
+msgid "Membership"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:29
+msgid "Membership extra profile information"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:321
+msgid "Membership Name"
+msgstr ""
+
+#: admin/admin-dashboard.php:62
+msgid "Membership Stats"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:871
+msgid "Membership Subscription"
+msgstr ""
+
+#: admin/class-mmtms-admin-taxonomy.php:33
+msgid "Membership Type"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-mmtms-admin-init.php:104
+msgid "MMT - Membership"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:46
+msgid "MMT Members Invoice."
+msgstr ""
+
+#: admin/class-mmtms-admin-settings.php:27
+#: admin/class-mmtms-admin-metaboxes.php:21
+msgid "MMT Membership"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:41
+msgid "MMT Membershiship Member."
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:41
+msgid "MMTMS - Login"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:44
+msgid "MMTMS - logout"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:38
+msgid "MMTMS - Registration"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:50
+msgid "MMTMS - reset password"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:47
+msgid "MMTMS - subscription"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:53
+msgid "MMTMS - user profile"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:111
+msgid "MMTMS Dynamic menu"
+msgstr ""
+
+#. Parent slug.
+#: admin/class-mmtms-admin-cpt-invoices.php:73
+msgid "MMTMS Invoices"
+msgstr ""
+
+#: includes/class-mmtms-login-widget.php:28
+#: includes/class-mmtms-login-widget.php:100
+msgid "MMTMS Login"
+msgstr ""
+
+#: includes/class-mmtms-login-widget.php:17
+msgid "MMTMS Login Widget"
+msgstr ""
+
+#: admin/class-mmtms-admin-menu-settings.php:24
+msgid "MMTMS Menu Item"
+msgstr ""
+
+#. Author of the plugin
+msgid "MoMo Themes"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:186
+msgid "My Profile"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:97 admin/class-mmtms-admin-helper.php:119
+msgid "Name"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:34
+msgid "New Invoice"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:114
+#: admin/class-mmtms-admin-ajax-level.php:215
+msgid "New Level Successfully added."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:29
+msgid "New Member"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-wp-capabilities.php:54
+msgid "New Role added."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:41
+msgid "No Invoices found in Trash."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:40
+msgid "No Invoices found."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:36
+msgid "No Members found in Trash."
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:35
+msgid "No Members found."
+msgstr ""
+
+#: admin/admin-dashboard.php:183
+msgid "No members found."
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:190
+#: admin/class-mmtms-admin-helper.php:212
+msgid "No. of Members"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:260
+#: includes/class-mmtms-frontend-ajax.php:335
+#: includes/class-mmtms-shortcodes.php:115
+#: includes/class-mmtms-shortcodes.php:518
+msgid "Only "
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:152
+msgid ""
+"Only alphanumeric characters plus these:<em> _, space, ., -, *, and @</em> "
+"are allowed in username."
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:132
+msgid "Only characters, digits, hyphens or underscore are allowed in Role ID."
+msgstr ""
+
+#: admin/admin-dashboard.php:43
+msgid "Other Settings"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:401
+msgid "Other WP capabilities"
+msgstr ""
+
+#: admin/admin-dashboard.php:25
+msgid "our helpdesk. "
+msgstr ""
+
+#: admin/admin-pages.php:23 admin/admin-pages.php:39
+msgid "Page Slug"
+msgstr ""
+
+#: admin/admin-pages.php:20 admin/admin-pages.php:36
+msgid "Page Title"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:39
+msgid "Parent Invoices:"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:34
+msgid "Parent Members:"
+msgstr ""
+
+#: admin/admin-members.php:61 includes/class-mmtms-frontend.php:210
+#: includes/class-mmtms-frontend.php:211
+#: includes/class-mmtms-frontend-ajax.php:813
+#: includes/class-mmtms-shortcodes.php:47
+#: includes/class-mmtms-shortcodes.php:165
+#: includes/class-mmtms-shortcodes.php:166
+#: includes/class-mmtms-login-widget.php:64
+#: includes/class-mmtms-login-widget.php:66
+msgid "Password"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:49
+msgid "password"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:133
+msgid "Password and Confirm password mismatch"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:431
+msgid "Password Reset form will not show when you are logged in."
+msgstr ""
+
+#: admin/admin-levels.php:73
+msgid "Payment"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:245
+#: includes/class-mmtms-frontend-ajax.php:320
+msgid "Payment Details"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:100
+#: admin/class-mmtms-admin-helper.php:122
+#: includes/class-mmtms-shortcodes.php:329
+msgid "Payment Type"
+msgstr ""
+
+#: admin/admin-payments.php:18 admin/class-mmtms-admin-settings.php:39
+msgid "Payments"
+msgstr ""
+
+#: admin/admin-payments.php:36
+msgid "Paypal"
+msgstr ""
+
+#: admin/admin-payments.php:33
+msgid "Paypal API Settings"
+msgstr ""
+
+#: admin/admin-payments.php:44
+msgid "Paypal Email Address"
+msgstr ""
+
+#: admin/admin-payments.php:49
+msgid "Paypal Live Settings"
+msgstr ""
+
+#: admin/admin-payments.php:73
+msgid "Paypal Sandbox Settings"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:81 admin/admin-invoice.php:41
+#: includes/class-mmtms-frontend-ajax.php:114
+#: includes/class-mmtms-frontend-ajax.php:973
+msgid "Phone"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:248
+#: includes/class-mmtms-frontend-ajax.php:323
+msgid "Plan Name"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:36
+msgid "Please enter your address."
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:43
+msgid "Please enter your city."
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:84
+msgid "Please enter your phone number."
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:50
+msgid "Please enter your state."
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:57
+msgid "Please enter your zip code."
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:204
+msgid "Please Login first to display Subscription page"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:94
+msgid "Please Login to view this page"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:77
+msgid "Please select your country."
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:97
+msgid "Please upload your profile image."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1143
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:106
+#: admin/class-mmtms-admin-helper.php:128
+#: includes/archive-mmtms-invoices.php:18
+#: includes/class-mmtms-frontend-ajax.php:255
+#: includes/class-mmtms-frontend-ajax.php:330
+#: includes/class-mmtms-shortcodes.php:333
+#: includes/single-mmtms-invoices.php:74
+msgid "Price"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:88
+msgid "Profile Image"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:471
+msgid "Profile Page"
+msgstr ""
+
+#: includes/class-mmtms-frontend.php:69
+msgid "Provided email address is incorrect."
+msgstr ""
+
+#: includes/class-mmtms-frontend.php:71
+msgid "Provided email address is same as before."
+msgstr ""
+
+#: includes/class-mmtms-frontend.php:70
+msgid "Provided password does not match."
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:167
+msgid "Public"
+msgstr ""
+
+#: admin/admin-dashboard.php:148
+msgid "Recent Members"
+msgstr ""
+
+#: admin/class-mmtms-admin-settings.php:43
+msgid "Redirection"
+msgstr ""
+
+#: admin/admin-redirection.php:18
+msgid "Redirection after Login"
+msgstr ""
+
+#: admin/admin-redirection.php:31
+msgid "Redirection after Logout"
+msgstr ""
+
+#: admin/admin-redirection.php:14
+msgid "Redirection Settings"
+msgstr ""
+
+#: includes/class-mmtms-frontend.php:219 includes/class-mmtms-shortcodes.php:55
+#: includes/class-mmtms-shortcodes.php:174
+#: includes/class-mmtms-login-widget.php:73
+msgid "Register"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:43
+#: admin/class-mmtms-admin-metaboxes.php:47
+msgid "Registered User"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:851
+msgid "Registration"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:337
+msgid "Remove Subscription"
+msgstr ""
+
+#: admin/admin-pages.php:79 admin/admin-pages.php:93
+msgid "RePublish"
+msgstr ""
+
+#: admin/class-mmtms-admin-init.php:131 includes/class-mmtms-frontend.php:68
+msgid "Requierd Fields are missing."
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:867
+msgid "Reset Password"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-wp-capabilities.php:62
+msgid "Role Already Exist."
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-wp-capabilities.php:101
+msgid "Role deleted successfully."
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-wp-capabilities.php:165
+msgid "Role display name changed"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-wp-capabilities.php:109
+msgid "Role doesnot Exist."
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:48 admin/class-mmtms-admin-helper.php:187
+#: admin/class-mmtms-admin-helper.php:209
+msgid "Role ID"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:184
+#: admin/class-mmtms-admin-helper.php:206
+msgid "Role Title"
+msgstr ""
+
+#: admin/admin-payments.php:74
+msgid "Sandbox ID"
+msgstr ""
+
+#: admin/admin-payments.php:78
+msgid "Sandbox Secret"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:89
+msgid "Save Capabilities"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:124
+#: includes/class-mmtms-frontend-ajax.php:640
+#: includes/class-mmtms-frontend-ajax.php:726
+#: includes/class-mmtms-frontend-ajax.php:821
+#: includes/class-mmtms-frontend-ajax.php:1018
+msgid "Save Changes"
+msgstr ""
+
+#: admin/admin-levels.php:94 admin/admin-levels.php:95
+msgid "Save Level"
+msgstr ""
+
+#: admin/admin-uninstall.php:33 admin/admin-invoice.php:57
+#: admin/admin-payments.php:84 admin/admin-redirection.php:47
+msgid "Save Settings"
+msgstr ""
+
+#: admin/admin-members.php:84
+msgid "Save User"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:38
+msgid "Search Invoices"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:33
+msgid "Search Members"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:95
+msgid "Select or Upload your profile image"
+msgstr ""
+
+#: admin/class-mmtms-admin-metaboxes.php:45
+msgid "Select User Levels"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:447
+msgid "send email"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-payments.php:46
+#: admin/class-mmtms-admin-ajax-uninstall.php:36
+#: admin/class-mmtms-admin-ajax-redirection.php:38
+#: admin/class-mmtms-admin-ajax-invoice.php:45
+msgid "Settings successfully updated."
+msgstr ""
+
+#: admin/class-mmtms-admin-metaboxes.php:39
+msgid "Show Post only for"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:135
+#: includes/class-mmtms-shortcodes.php:538
+msgid "Sign Up"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:115
+#: includes/class-mmtms-shortcodes.php:518
+msgid "Sign Up Now"
+msgstr ""
+
+#: admin/admin-dashboard.php:78
+msgid "Signup"
+msgstr ""
+
+#. %s: site name
+#: includes/class-mmtms-frontend-ajax.php:1134
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1132
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:124
+msgid "Something went wrong while editing level."
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:154
+msgid "Something went wrong while generating data."
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:47
+#: includes/class-mmtms-frontend-ajax.php:89
+#: includes/class-mmtms-frontend-ajax.php:960
+msgid "State"
+msgstr ""
+
+#: admin/admin-pages.php:26 admin/admin-pages.php:42
+msgid "Status"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:379
+msgid "Subscriber related capabilities"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:291
+msgid "subscription"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:230
+#: includes/class-mmtms-frontend-ajax.php:908
+msgid "Subscription Page"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1038
+msgid "Successfully changed image URL"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:890
+msgid "Successfully deleted level."
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-level.php:144
+msgid "Successfully found the required level."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:770
+msgid "Successfully updated email."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:855
+msgid "Successfully updated password."
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:297
+msgid "Super Admin related capabilities"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1143
+msgid "The email could not be sent."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1068
+msgid "There is no account with that email address."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1059
+msgid "There is no account with that username."
+msgstr ""
+
+#: admin/admin-dashboard.php:99
+msgid "This Month"
+msgstr ""
+
+#: admin/admin-dashboard.php:110
+msgid "This Year"
+msgstr ""
+
+#: admin/admin-payments.php:34
+msgid "Title"
+msgstr ""
+
+#: admin/admin-dashboard.php:21
+msgid "To get started, please visit our detailed "
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:1138
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: admin/admin-dashboard.php:88
+msgid "Today"
+msgstr ""
+
+#: admin/admin-dashboard.php:66
+msgid "Toggle panel: Membership Stats"
+msgstr ""
+
+#: admin/admin-dashboard.php:152
+msgid "Toggle panel: Recent Members"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-user.php:220
+msgid "Unable to find User."
+msgstr ""
+
+#: admin/admin-uninstall.php:17 admin/class-mmtms-admin-settings.php:44
+msgid "Uninstall"
+msgstr ""
+
+#: admin/admin-pages.php:88
+msgid "Unpublished"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:49
+#: admin/class-mmtms-admin-metaboxes.php:48
+msgid "Unregistered User"
+msgstr ""
+
+#: admin/admin-members.php:85
+msgid "Update User"
+msgstr ""
+
+#: admin/admin-invoice.php:50
+msgid "Upload"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:95
+msgid "Upload Image"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:95
+msgid "Use this image"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:66
+#: admin/class-mmtms-admin-cpt-invoices.php:173
+msgid "User ID"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:74
+#: admin/class-mmtms-admin-cpt-invoices.php:181 admin/admin-members.php:76
+msgid "User Level"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:89
+#: admin/class-mmtms-admin-helper.php:540
+#: admin/class-mmtms-admin-helper.php:565
+msgid "User Name"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:45
+#: includes/class-mmtms-login-widget.php:61
+msgid "User Name / Email"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:859
+msgid "User Profile"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:678
+msgid "User successfully updated"
+msgstr ""
+
+#: includes/class-mmtms-frontend.php:205
+#: includes/class-mmtms-shortcodes.php:160
+msgid "Userame"
+msgstr ""
+
+#: admin/admin-dashboard.php:162 admin/admin-members.php:44
+#: includes/class-mmtms-frontend.php:204 includes/class-mmtms-shortcodes.php:43
+#: includes/class-mmtms-shortcodes.php:159
+#: includes/class-mmtms-login-widget.php:59
+msgid "Username"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:444
+msgid "Username / Email"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-user.php:50
+#: includes/class-mmtms-frontend-ajax.php:164
+msgid "Username already exist."
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:445
+msgid "username or email"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:194
+msgid "Username Registered"
+msgstr ""
+
+#. %s: user login
+#: includes/class-mmtms-frontend-ajax.php:1136
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: admin/class-mmtms-admin-ajax-pages.php:83 admin/admin-pages.php:75
+msgid "View"
+msgstr ""
+
+#: admin/admin-dashboard.php:50
+msgid "View Advance Setting"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-invoices.php:36
+msgid "View Invoice"
+msgstr ""
+
+#: admin/class-mmtms-admin-cpt-members.php:31
+msgid "View Member"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:244
+#: includes/class-mmtms-login-widget.php:27
+#: includes/class-mmtms-login-widget.php:95
+msgid "Welcome <username>"
+msgstr ""
+
+#: admin/admin-wp-capabilities.php:15 admin/class-mmtms-admin-settings.php:37
+msgid "WP Capabilities"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:103
+#: admin/class-mmtms-admin-helper.php:125
+msgid "WP Capability"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:385
+msgid "WP Deprecated capabilities"
+msgstr ""
+
+#: admin/class-mmtms-admin-helper.php:549
+#: admin/class-mmtms-admin-helper.php:574 admin/admin-members.php:70
+msgid "WP Role"
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:546
+msgid "Wrong username or password."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:583
+msgid "Wrong username/email or password."
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:114
+msgid "You are not allowed to view this post"
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:383
+msgid "You are trying to logout of "
+msgstr ""
+
+#: admin/admin-dashboard.php:26
+msgid "You will get assistance from one of our staffs as soon as possible."
+msgstr ""
+
+#: includes/class-mmtms-frontend-ajax.php:907
+msgid ""
+"You're not subscribed to any of our levels. Please go to our subscription "
+"page to subscribe."
+msgstr ""
+
+#: includes/class-mmtms-shortcodes.php:470
+msgid ""
+"You've already been subscribed to one of the level. Please check your "
+"profile page to change your level"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:182
+msgid ""
+"You've already logged in. Please go to your profile page for any changes"
+msgstr ""
+
+#: includes/class-mmtms-frontend-helper.php:226
+msgid "You've already registered. Please choose your desired subscription"
+msgstr ""
+
+#: admin/admin-invoice.php:39
+msgid "Your Business Address"
+msgstr ""
+
+#: admin/admin-invoice.php:48
+msgid "Your Business Logo"
+msgstr ""
+
+#: admin/admin-invoice.php:42
+msgid "Your Business Phone"
+msgstr ""
+
+#: admin/class-mmtms-user-profile-meta.php:54
+#: includes/class-mmtms-frontend-ajax.php:93
+#: includes/class-mmtms-frontend-ajax.php:963
+msgid "Zip Code"
+msgstr ""
